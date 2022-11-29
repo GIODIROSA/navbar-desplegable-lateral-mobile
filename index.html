@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Navbar-css-despegable</title>
+  </head>
+  <body>
+    <button class="burger material-symbols-outlined" onclick="toggleMenu()">
+      <i class="fa-sharp fa-solid fa-bars"></i>
+    </button>
+    <nav class="navbar">
+      <!-- LOGO -->
+      <div class="logo">
+        <img src="./image/logo-gmail.png" alt="logo-gmail" />
+        <span>Gmail</span>
+      </div>
+      <!--FINAL LOGO -->
+      <!-- SEARCH -->
+      <div class="search">
+        <span><i class="fa-solid fa-magnifying-glass"></i></span>
+        <input type="text" placeholder="Search mail" />
+      </div>
+      <!--FINAL SEARCH -->
+
+      <nav>
+        <button class="material-symbols-outlined">
+          <i class="fa-sharp fa-solid fa-circle-info"></i>
+        </button>
+        <!-- other button -->
+        <button>
+          <i class="fa-sharp fa-solid fa-gear"></i>
+        </button>
+        <button>
+          <i class="fa-sharp fa-solid fa-menorah"></i>
+        </button>
+        <button class="modificer-profile">
+          <img src="./image/tintin.jpg" alt="tin tin" />
+        </button>
+      </nav>
+    </nav>
+
+    <script src="main.js"></script>
+  </body>
+</html>
